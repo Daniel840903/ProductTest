@@ -12,6 +12,9 @@ public class ProductService implements IProductService {
         pDao = new ProductDao(session);
     }
 
+
+
+
     @Override
     public Product findById(int id) {
         return pDao.findById(id);
