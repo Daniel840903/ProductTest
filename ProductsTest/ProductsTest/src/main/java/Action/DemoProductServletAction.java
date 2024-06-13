@@ -46,7 +46,7 @@ public class DemoProductServletAction extends HttpServlet {
         String action = request.getParameter("action");
 
         SessionFactory factory = HibernateUtil.getSessionFactory();
-        Session session = factory.openSession();
+        Session session = factory.getCurrentSession();
         Transaction tx = null;
 
         try {

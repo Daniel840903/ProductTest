@@ -1,4 +1,4 @@
-package unit;
+package unit:
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
