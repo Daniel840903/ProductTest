@@ -30,6 +30,10 @@ public class DemoProductServletAction extends HttpServlet {
         productService = new ProductService(session);
     }
 
+
+
+
+
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         processAction(request, response);
